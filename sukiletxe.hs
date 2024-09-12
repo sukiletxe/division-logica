@@ -1,7 +1,8 @@
 -- Esta función divide números naturales sin usar el signo de división. No se comprueba la división por cero, y se hace división entera.
 -- Forma de ejecutar:
+-- runghc sukiletxe.hs ejecutará la función Main, directamente.
+-- ghci sukiletxe.hs compilará temporalmente y cargará el código en una sesión interactiva, y ahí podremos ejecutar divide con los dos argumentos o main. estando en ghci, podemos salir con :q, y si cambiamos el código podemos recargarlo con :r.
 -- ghc sukiletxe.hs compilará el código en ./sukiletxe(.exe), y si ejecutamos eso se ejecutará la función main. Ojo, ghc genera archivos .o y .hi también.
--- ghci sukiletxe.hs cargará el código, y ahí podremos ejecutar divide con los dos argumentos o main. estando en ghci, si cambiamos el código podemos recargarlo con :r, y salir con :q.
 -- Esto no sería necesario, pero explicitamos que la función divide tome dos argumentos enteros y devuelva un entero.
 divide :: Int -> Int -> Int
 -- Los argumentos de divide son el dividendo y el divisor. Les llamaremos a y b, respectivamente.
